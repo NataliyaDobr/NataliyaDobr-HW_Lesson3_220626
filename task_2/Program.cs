@@ -20,4 +20,4 @@ double zb = Prompt("Введите координату второй точки 
 
 double AB = Math.Sqrt((xa-xb)*(xa-xb)+(ya-yb)*(ya-yb)+(za-zb)*(za-zb));
 
-System.Console.WriteLine(AB);
+System.Console.WriteLine($"Расстояние между точками = {AB}");
